@@ -5,7 +5,8 @@ const blogFiles = [
 async function fetchBlogPosts() {
     const container = document.getElementById('blog-container');
 
-    for (const file of blogFiles) {
+    // Process the blog files in reverse order
+    for (const file of blogFiles.reverse()) {
         try {
             const response = await fetch(file);
             if (!response.ok) {
@@ -21,10 +22,13 @@ async function fetchBlogPosts() {
                     const card = document.createElement('div');
                     card.className = 'col-12';
                     card.innerHTML = `
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">${content}</h5>
-                                <p class="card-text">${posts[index + 1]?.trim() || ''}</p>
+                        <div class="card h-100 bg-light">
+                            <div class="card-body bg-grad-info border">
+                                <div class="card-header"><h5 class="card-title">${content}</h5></div>
+                                <div class="card-body">
+                                    <p class="card-text">${posts[index + 1]?.trim() || ''}</p>
+                                    <p class="text-muted small">${posts[index + 1]?.split('\n').pop().trim()}</p>
+                                </div>
                             </div>
                         </div>
                     `;

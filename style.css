@@ -1,0 +1,11 @@
+body{
+    background-image: url("images/stars.webp");
+}
+
+.bg-grad-secondary {
+    background: linear-gradient(135deg, #6c757d, #343a40); /* Gradient for secondary */
+  }
+  
+  .bg-grad-info {
+    background: linear-gradient(135deg, #17a2b8, #0dcaf0); /* Gradient for info */
+  }
