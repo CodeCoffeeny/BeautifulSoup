@@ -1,0 +1,4 @@
+Blog Post
+Today I am starting my winter break project between semesters. We ( well thats just me actually ) post about web scraping the Star Trek Continuing Comittee, to get the elements of what make the cards they have created to start. This will probably be done with python using BeautifulSoup as I learn it. Then, after we get this information, we will create a database ( also to be on github ) to make our own API to retrieve it. Finally, we will use Javascript to use the API and create a webpage that users can browse the card list dynamically but also maybe add some functionality with card collecting.
+December 16th, 2024
+
