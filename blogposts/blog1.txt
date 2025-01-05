@@ -6,3 +6,7 @@ Blog Post
 Second update today. Added in basic bootstrap to this blog. Now onto python. May post excerpts from my code, which will mean I will need to update this blog script for quote blocks... later.
 December 16th, 2024
 
+Blog Post
+Okay, yeah, it is YET another blog I have started and abandoned. Not totally true but yeah I got busy with work and the holidays. So I have save what I have done with my python code for now. I have written some paper designed for what my database would have looked like. But, this project is on hold for now and I may come back when I have spare time/inspiration. School starts again tomorrow ( Januaryd 6th, 2025 ) so I will be busy with that. Gonna be funzo. Lets bring on OOP!
+January 5th, 2025
+
